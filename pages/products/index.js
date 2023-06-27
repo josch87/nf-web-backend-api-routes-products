@@ -1,3 +1,4 @@
+import Link from "next/link";
 import useSWR from "swr";
 
 const fetcher = async (url) => {
@@ -29,7 +30,7 @@ export default function ProductsPage() {
           return (
             <>
               <li key={product.id}>
-                <a href={`/products/${product.id}`}>{product.name}</a>
+                <Link href={`/products/${product.id}`}>{product.name}</Link>
               </li>
             </>
           );

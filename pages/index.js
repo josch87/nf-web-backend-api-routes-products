@@ -5,8 +5,8 @@ export default function HomePage() {
     <div>
       <h1>Welcome to Next.js API Routes!</h1>
       <p>
-        Please see a list of <Link href="/products">All products</Link>. For
-        your own application you can use our{" "}
+        Please see a list of <Link href="/products">all of our products</Link>.
+        For your own application you can use our
         <Link href="/api/products">well documented API</Link>.
       </p>
     </div>
